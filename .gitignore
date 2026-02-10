@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+temp/
+skills/xlb-topic-index/cache/
+skills/xlb-topic-index/scripts/__pycache__/
+skills/xlb-topic-index/tests/__pycache__/
+skills/xlb-topic-index/bench/__pycache__/

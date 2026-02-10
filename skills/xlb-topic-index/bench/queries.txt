@@ -1,0 +1,7 @@
+# Format:
+# <xlb_input>\t<retrieval_query>
+# If retrieval_query is empty, rag mode will use the same index fetch path without post-query search intent.
+
+xlb >vibe coding/	codex cli
+xlb >vibe coding/AI超元域	agent skills
+xlb ??vibe coding	AI model

@@ -1,0 +1,501 @@
+{
+  "generated_at": "2026-02-10T04:08:26Z",
+  "query_count": 3,
+  "runs_per_query": 5,
+  "summary": {
+    "raw": {
+      "count": 15,
+      "latency_ms_avg": 2271.7087776671783,
+      "latency_ms_p50": 1259.4877910014475,
+      "latency_ms_p95": 4307.214182900316,
+      "output_bytes_avg": 32395.333333333332,
+      "estimated_tokens_avg": 8099.333333333333,
+      "success_rate": 1.0
+    },
+    "rag": {
+      "count": 15,
+      "latency_ms_avg": 388.4125665997999,
+      "latency_ms_p50": 303.2787920001283,
+      "latency_ms_p95": 691.4170625996107,
+      "output_bytes_avg": 8492.0,
+      "estimated_tokens_avg": 2123.3333333333335,
+      "success_rate": 1.0
+    }
+  },
+  "comparison": {
+    "token_reduction_pct": 0.7378385052267676,
+    "latency_p50_reduction_pct": 0.7592046590948021,
+    "latency_p95_reduction_pct": 0.8394746503796947
+  },
+  "runs": {
+    "raw": [
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/"
+        ],
+        "returncode": 0,
+        "latency_ms": 1332.406000001356,
+        "output_bytes": 74249,
+        "estimated_tokens": 18563,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 1
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/"
+        ],
+        "returncode": 0,
+        "latency_ms": 1264.2949170003703,
+        "output_bytes": 74249,
+        "estimated_tokens": 18563,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 2
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/"
+        ],
+        "returncode": 0,
+        "latency_ms": 1253.1736660002935,
+        "output_bytes": 74249,
+        "estimated_tokens": 18563,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 3
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/"
+        ],
+        "returncode": 0,
+        "latency_ms": 1259.4877910014475,
+        "output_bytes": 74249,
+        "estimated_tokens": 18563,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 4
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/"
+        ],
+        "returncode": 0,
+        "latency_ms": 1252.9673750013899,
+        "output_bytes": 74249,
+        "estimated_tokens": 18563,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 5
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/AI超元域"
+        ],
+        "returncode": 0,
+        "latency_ms": 1255.3814580005564,
+        "output_bytes": 20707,
+        "estimated_tokens": 5177,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 1
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/AI超元域"
+        ],
+        "returncode": 0,
+        "latency_ms": 1246.577249999973,
+        "output_bytes": 20707,
+        "estimated_tokens": 5177,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 2
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/AI超元域"
+        ],
+        "returncode": 0,
+        "latency_ms": 1255.4959589997452,
+        "output_bytes": 20707,
+        "estimated_tokens": 5177,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 3
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/AI超元域"
+        ],
+        "returncode": 0,
+        "latency_ms": 1252.2912910008017,
+        "output_bytes": 20707,
+        "estimated_tokens": 5177,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 4
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/AI超元域"
+        ],
+        "returncode": 0,
+        "latency_ms": 1248.0747499994322,
+        "output_bytes": 20707,
+        "estimated_tokens": 5177,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 5
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb ??vibe coding"
+        ],
+        "returncode": 0,
+        "latency_ms": 4298.423707999973,
+        "output_bytes": 2230,
+        "estimated_tokens": 558,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 1
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb ??vibe coding"
+        ],
+        "returncode": 0,
+        "latency_ms": 4283.142209000289,
+        "output_bytes": 2230,
+        "estimated_tokens": 558,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 2
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb ??vibe coding"
+        ],
+        "returncode": 0,
+        "latency_ms": 4275.197332999596,
+        "output_bytes": 2230,
+        "estimated_tokens": 558,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 3
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb ??vibe coding"
+        ],
+        "returncode": 0,
+        "latency_ms": 4327.725291001116,
+        "output_bytes": 2230,
+        "estimated_tokens": 558,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 4
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb ??vibe coding"
+        ],
+        "returncode": 0,
+        "latency_ms": 4270.992667001337,
+        "output_bytes": 2230,
+        "estimated_tokens": 558,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 5
+      }
+    ],
+    "rag": [
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/",
+          "codex cli"
+        ],
+        "returncode": 0,
+        "latency_ms": 300.7264589996339,
+        "output_bytes": 14189,
+        "estimated_tokens": 3548,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 1
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/",
+          "codex cli"
+        ],
+        "returncode": 0,
+        "latency_ms": 298.50662499848113,
+        "output_bytes": 14189,
+        "estimated_tokens": 3548,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 2
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/",
+          "codex cli"
+        ],
+        "returncode": 0,
+        "latency_ms": 301.6353330003767,
+        "output_bytes": 14189,
+        "estimated_tokens": 3548,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 3
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/",
+          "codex cli"
+        ],
+        "returncode": 0,
+        "latency_ms": 308.0015409996122,
+        "output_bytes": 14189,
+        "estimated_tokens": 3548,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 4
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/",
+          "codex cli"
+        ],
+        "returncode": 0,
+        "latency_ms": 301.0412500007078,
+        "output_bytes": 14189,
+        "estimated_tokens": 3548,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 5
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/AI超元域",
+          "agent skills"
+        ],
+        "returncode": 0,
+        "latency_ms": 322.54987499982235,
+        "output_bytes": 9836,
+        "estimated_tokens": 2459,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 1
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/AI超元域",
+          "agent skills"
+        ],
+        "returncode": 0,
+        "latency_ms": 299.8826659986662,
+        "output_bytes": 9836,
+        "estimated_tokens": 2459,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 2
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/AI超元域",
+          "agent skills"
+        ],
+        "returncode": 0,
+        "latency_ms": 300.9703339994303,
+        "output_bytes": 9836,
+        "estimated_tokens": 2459,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 3
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/AI超元域",
+          "agent skills"
+        ],
+        "returncode": 0,
+        "latency_ms": 1552.1071669991215,
+        "output_bytes": 9836,
+        "estimated_tokens": 2459,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 4
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/AI超元域",
+          "agent skills"
+        ],
+        "returncode": 0,
+        "latency_ms": 300.63391600015166,
+        "output_bytes": 9836,
+        "estimated_tokens": 2459,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 5
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb ??vibe coding",
+          "AI model"
+        ],
+        "returncode": 0,
+        "latency_ms": 319.74425000043993,
+        "output_bytes": 1451,
+        "estimated_tokens": 363,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 1
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb ??vibe coding",
+          "AI model"
+        ],
+        "returncode": 0,
+        "latency_ms": 306.4024579998659,
+        "output_bytes": 1451,
+        "estimated_tokens": 363,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 2
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb ??vibe coding",
+          "AI model"
+        ],
+        "returncode": 0,
+        "latency_ms": 305.43741600013163,
+        "output_bytes": 1451,
+        "estimated_tokens": 363,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 3
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb ??vibe coding",
+          "AI model"
+        ],
+        "returncode": 0,
+        "latency_ms": 303.2787920001283,
+        "output_bytes": 1451,
+        "estimated_tokens": 363,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 4
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb ??vibe coding",
+          "AI model"
+        ],
+        "returncode": 0,
+        "latency_ms": 305.270417000429,
+        "output_bytes": 1451,
+        "estimated_tokens": 363,
+        "stderr": "",
+        "mode": "rag",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "generated_at": "2026-02-10T04:14:55Z",
+  "query_count": 3,
+  "runs_per_query": 3,
+  "summary": {
+    "raw": {
+      "count": 9,
+      "latency_ms_avg": 2273.2647964443863,
+      "latency_ms_p50": 1272.5589170004241,
+      "latency_ms_p95": 4306.406275400877,
+      "output_bytes_avg": 32395.333333333332,
+      "estimated_tokens_avg": 8099.333333333333,
+      "success_rate": 1.0
+    },
+    "rag": {
+      "count": 9,
+      "latency_ms_avg": 514.9342361112051,
+      "latency_ms_p50": 379.42512500012526,
+      "latency_ms_p95": 1125.1123666006602,
+      "output_bytes_avg": 8492.0,
+      "estimated_tokens_avg": 2123.3333333333335,
+      "success_rate": 1.0
+    }
+  },
+  "comparison": {
+    "token_reduction_pct": 0.7378385052267676,
+    "latency_p50_reduction_pct": 0.7018408185811339,
+    "latency_p95_reduction_pct": 0.7387352017789067
+  },
+  "runs": {
+    "raw": [
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/"
+        ],
+        "returncode": 0,
+        "latency_ms": 1294.6009999996022,
+        "output_bytes": 74249,
+        "estimated_tokens": 18563,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 1
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/"
+        ],
+        "returncode": 0,
+        "latency_ms": 1249.1924170008133,
+        "output_bytes": 74249,
+        "estimated_tokens": 18563,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 2
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/"
+        ],
+        "returncode": 0,
+        "latency_ms": 1249.0093329997762,
+        "output_bytes": 74249,
+        "estimated_tokens": 18563,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 3
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/AI超元域"
+        ],
+        "returncode": 0,
+        "latency_ms": 1272.5589170004241,
+        "output_bytes": 20707,
+        "estimated_tokens": 5177,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 1
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/AI超元域"
+        ],
+        "returncode": 0,
+        "latency_ms": 1249.5408749982744,
+        "output_bytes": 20707,
+        "estimated_tokens": 5177,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 2
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb >vibe coding/AI超元域"
+        ],
+        "returncode": 0,
+        "latency_ms": 1247.205749999921,
+        "output_bytes": 20707,
+        "estimated_tokens": 5177,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 3
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb ??vibe coding"
+        ],
+        "returncode": 0,
+        "latency_ms": 4293.200375001106,
+        "output_bytes": 2230,
+        "estimated_tokens": 558,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 1
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb ??vibe coding"
+        ],
+        "returncode": 0,
+        "latency_ms": 4288.864291998834,
+        "output_bytes": 2230,
+        "estimated_tokens": 558,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 2
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/fetch-topic-index.sh",
+          "xlb ??vibe coding"
+        ],
+        "returncode": 0,
+        "latency_ms": 4315.210209000725,
+        "output_bytes": 2230,
+        "estimated_tokens": 558,
+        "stderr": "",
+        "mode": "raw",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 3
+      }
+    ],
+    "rag": [
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/",
+          "codex cli"
+        ],
+        "returncode": 0,
+        "latency_ms": 372.2489579995454,
+        "output_bytes": 14189,
+        "estimated_tokens": 3548,
+        "stderr": "【网络扩展需确认】\n已完成本地索引检索；默认未执行网络抓取/网页下载。\n\n- 输入指令: xlb >vibe coding/\n- 检索关键词: codex cli\n- 本地命中数: 38\n- 可抓取URL数: 36\n\nURL示例:\n1. https://www.youtube.com/watch?v=Qcyycy4aYgY\n2. https://linux.do/t/topic/1355015\n3. https://linux.do/t/topic/1353223\n\n如需继续执行耗时网络扩展，请明确确认后重试：\nXLB_NETWORK_CONFIRMED=1 XLB_PREFETCH_ARTIFACTS=0 skills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n\n仅继续使用本地索引（不抓取网络）：\nskills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n",
+        "mode": "rag",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 1
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/",
+          "codex cli"
+        ],
+        "returncode": 0,
+        "latency_ms": 364.58829100047296,
+        "output_bytes": 14189,
+        "estimated_tokens": 3548,
+        "stderr": "【网络扩展需确认】\n已完成本地索引检索；默认未执行网络抓取/网页下载。\n\n- 输入指令: xlb >vibe coding/\n- 检索关键词: codex cli\n- 本地命中数: 38\n- 可抓取URL数: 36\n\nURL示例:\n1. https://www.youtube.com/watch?v=Qcyycy4aYgY\n2. https://linux.do/t/topic/1355015\n3. https://linux.do/t/topic/1353223\n\n如需继续执行耗时网络扩展，请明确确认后重试：\nXLB_NETWORK_CONFIRMED=1 XLB_PREFETCH_ARTIFACTS=0 skills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n\n仅继续使用本地索引（不抓取网络）：\nskills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n",
+        "mode": "rag",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 2
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/",
+          "codex cli"
+        ],
+        "returncode": 0,
+        "latency_ms": 377.2340420000546,
+        "output_bytes": 14189,
+        "estimated_tokens": 3548,
+        "stderr": "【网络扩展需确认】\n已完成本地索引检索；默认未执行网络抓取/网页下载。\n\n- 输入指令: xlb >vibe coding/\n- 检索关键词: codex cli\n- 本地命中数: 38\n- 可抓取URL数: 36\n\nURL示例:\n1. https://www.youtube.com/watch?v=Qcyycy4aYgY\n2. https://linux.do/t/topic/1355015\n3. https://linux.do/t/topic/1353223\n\n如需继续执行耗时网络扩展，请明确确认后重试：\nXLB_NETWORK_CONFIRMED=1 XLB_PREFETCH_ARTIFACTS=0 skills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n\n仅继续使用本地索引（不抓取网络）：\nskills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n",
+        "mode": "rag",
+        "input": "xlb >vibe coding/",
+        "query": "codex cli",
+        "run": 3
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/AI超元域",
+          "agent skills"
+        ],
+        "returncode": 0,
+        "latency_ms": 383.6311669983843,
+        "output_bytes": 9836,
+        "estimated_tokens": 2459,
+        "stderr": "【网络扩展需确认】\n已完成本地索引检索；默认未执行网络抓取/网页下载。\n\n- 输入指令: xlb >vibe coding/AI超元域\n- 检索关键词: agent skills\n- 本地命中数: 28\n- 可抓取URL数: 28\n\nURL示例:\n1. https://www.youtube.com/watch?v=0ubHrQz9PN0\n2. https://www.youtube.com/watch?v=QNZZJvGnk80\n3. https://www.youtube.com/watch?v=wTzZg7CKLsw\n\n如需继续执行耗时网络扩展，请明确确认后重试：\nXLB_NETWORK_CONFIRMED=1 XLB_PREFETCH_ARTIFACTS=0 skills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n\n仅继续使用本地索引（不抓取网络）：\nskills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n",
+        "mode": "rag",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 1
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/AI超元域",
+          "agent skills"
+        ],
+        "returncode": 0,
+        "latency_ms": 368.222875000356,
+        "output_bytes": 9836,
+        "estimated_tokens": 2459,
+        "stderr": "【网络扩展需确认】\n已完成本地索引检索；默认未执行网络抓取/网页下载。\n\n- 输入指令: xlb >vibe coding/AI超元域\n- 检索关键词: agent skills\n- 本地命中数: 28\n- 可抓取URL数: 28\n\nURL示例:\n1. https://www.youtube.com/watch?v=0ubHrQz9PN0\n2. https://www.youtube.com/watch?v=QNZZJvGnk80\n3. https://www.youtube.com/watch?v=wTzZg7CKLsw\n\n如需继续执行耗时网络扩展，请明确确认后重试：\nXLB_NETWORK_CONFIRMED=1 XLB_PREFETCH_ARTIFACTS=0 skills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n\n仅继续使用本地索引（不抓取网络）：\nskills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n",
+        "mode": "rag",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 2
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb >vibe coding/AI超元域",
+          "agent skills"
+        ],
+        "returncode": 0,
+        "latency_ms": 379.42512500012526,
+        "output_bytes": 9836,
+        "estimated_tokens": 2459,
+        "stderr": "【网络扩展需确认】\n已完成本地索引检索；默认未执行网络抓取/网页下载。\n\n- 输入指令: xlb >vibe coding/AI超元域\n- 检索关键词: agent skills\n- 本地命中数: 28\n- 可抓取URL数: 28\n\nURL示例:\n1. https://www.youtube.com/watch?v=0ubHrQz9PN0\n2. https://www.youtube.com/watch?v=QNZZJvGnk80\n3. https://www.youtube.com/watch?v=wTzZg7CKLsw\n\n如需继续执行耗时网络扩展，请明确确认后重试：\nXLB_NETWORK_CONFIRMED=1 XLB_PREFETCH_ARTIFACTS=0 skills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n\n仅继续使用本地索引（不抓取网络）：\nskills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n",
+        "mode": "rag",
+        "input": "xlb >vibe coding/AI超元域",
+        "query": "agent skills",
+        "run": 3
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb ??vibe coding",
+          "AI model"
+        ],
+        "returncode": 0,
+        "latency_ms": 386.947291000979,
+        "output_bytes": 1451,
+        "estimated_tokens": 363,
+        "stderr": "【网络扩展需确认】\n已完成本地索引检索；默认未执行网络抓取/网页下载。\n\n- 输入指令: xlb ??vibe coding\n- 检索关键词: AI model\n- 本地命中数: 4\n- 可抓取URL数: 2\n\nURL示例:\n1. https://www.github.com/vanna-ai/Awesome-Vibe-Coding-CLI\n2. https://www.github.com/ai-for-developers/awesome-vibe-coding\n\n如需继续执行耗时网络扩展，请明确确认后重试：\nXLB_NETWORK_CONFIRMED=1 XLB_PREFETCH_ARTIFACTS=0 skills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n\n仅继续使用本地索引（不抓取网络）：\nskills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n",
+        "mode": "rag",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 1
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb ??vibe coding",
+          "AI model"
+        ],
+        "returncode": 0,
+        "latency_ms": 1617.2224170004483,
+        "output_bytes": 1451,
+        "estimated_tokens": 363,
+        "stderr": "【网络扩展需确认】\n已完成本地索引检索；默认未执行网络抓取/网页下载。\n\n- 输入指令: xlb ??vibe coding\n- 检索关键词: AI model\n- 本地命中数: 4\n- 可抓取URL数: 2\n\nURL示例:\n1. https://www.github.com/vanna-ai/Awesome-Vibe-Coding-CLI\n2. https://www.github.com/ai-for-developers/awesome-vibe-coding\n\n如需继续执行耗时网络扩展，请明确确认后重试：\nXLB_NETWORK_CONFIRMED=1 XLB_PREFETCH_ARTIFACTS=0 skills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n\n仅继续使用本地索引（不抓取网络）：\nskills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n",
+        "mode": "rag",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 2
+      },
+      {
+        "cmd": [
+          "/Users/wowdd1/.xlb-env/xlinkBook-skill/skills/xlb-topic-index/scripts/retrieve-topic-index.sh",
+          "xlb ??vibe coding",
+          "AI model"
+        ],
+        "returncode": 0,
+        "latency_ms": 384.8879590004799,
+        "output_bytes": 1451,
+        "estimated_tokens": 363,
+        "stderr": "【网络扩展需确认】\n已完成本地索引检索；默认未执行网络抓取/网页下载。\n\n- 输入指令: xlb ??vibe coding\n- 检索关键词: AI model\n- 本地命中数: 4\n- 可抓取URL数: 2\n\nURL示例:\n1. https://www.github.com/vanna-ai/Awesome-Vibe-Coding-CLI\n2. https://www.github.com/ai-for-developers/awesome-vibe-coding\n\n如需继续执行耗时网络扩展，请明确确认后重试：\nXLB_NETWORK_CONFIRMED=1 XLB_PREFETCH_ARTIFACTS=0 skills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n\n仅继续使用本地索引（不抓取网络）：\nskills/xlb-topic-index/scripts/retrieve-topic-index.sh \"<input>\" \"<query>\"\n",
+        "mode": "rag",
+        "input": "xlb ??vibe coding",
+        "query": "AI model",
+        "run": 3
+      }
+    ]
+  }
+}
